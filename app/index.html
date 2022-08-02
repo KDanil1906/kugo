@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/libs.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/media.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <span style="background-color: #ce4d36; border-radius: 50%; width: 5px; height: 50%;"></span>
+
+
+    <header class="header">
+        <div class="header__inner">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top__inner">
+                        <ul class="header-top__items">
+                            <li class="header-top__item">Сервис</li>
+                            <li class="header-top__item">Сотрудничество</li>
+                            <li class="header-top__item">Заказать звонок</li>
+                            <li class="header-top__item header-top__item-social">
+                                <div class="header-top__social-icon">
+                                    <img src="./images/viber.svg" alt="">
+                                </div>
+                                <div class="header-top__social-icon">
+                                    <img src="./images/whatsapp.svg" alt="">
+                                </div>
+                                <div class="header-top__social-icon">
+                                    <img src="./images/telegram.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-top__phone-group">
+                            <a class="header-top__phone-link" href="tel:+78005055461">+7 (800) 505-54-61</a>
+                            <div class="header-top__phone-add">
+                                <img class="header-top__add-img" src="./images/plus.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header-middle">
+                    <div class="header-middle__logo">
+                        <div class="header-middle__logo-box">
+                            <img src="./images/header-logo.png" alt="" class="header-middle-img">
+                        </div>
+                    </div>
+                    <div class="middle__catalog">
+                        <div class="middle__catalog__icon-items">
+                            <div class="middle__catalog__icon-line"></div>
+                            <div class="middle__catalog__icon-line"></div>
+                            <div class="middle__catalog__icon-line icon-line__short"></div>
+                        </div>
+                        <button class="middle__catalog-btn">Каталог</button>
+                    </div>
+                    <div class="header-middle__search">
+                        <form action="">
+                            <select class="header-middle__search-select filter-style" name="" id="">
+                                <option class="search-select__item" value="">Везде</option>
+                                <option class="search-select__item" value="">Не везде</option>
+                            </select>
+                            <input class="header-middle__search-input" type="text" placeholder="Искать самокат KUGO">
+                            <button class="header-middle__search-btn" type="submit"><img src="./images/search.svg"
+                                    alt=""></button>
+                        </form>
+                    </div>
+                    <div class="header-middle__icons">
+                        <a href="" class="header-middle__icons-header">
+                            <img class="icons-header__img" src="./images/comparison.svg" alt="">
+                        </a>
+                        <a href="" class="header-middle__icons-header">
+                            <img class="icons-header__img" src="./images/favorite.svg" alt="">
+                        </a>
+                        <a href="" class="header-middle__icons-header">
+                            <span class="icons-header__card"><img class="icons-header__img" src="./images/card.svg"
+                                    alt=""></span>Корзина
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-bottom__inner">
+                        <ul class="header-bottom__nav">
+                            <li class="header-bottom__nav-item">О магазине</li>
+                            <li class="header-bottom__nav-item">Доставка и оплата <span class="nav-item__extra">Доступна
+                                    рассрочка</span></li>
+                            <li class="header-bottom__nav-item">Тест-драйв</li>
+                            <li class="header-bottom__nav-item">Блог</li>
+                            <li class="header-bottom__nav-item">Контакты</li>
+                            <li class="header-bottom__nav-item">Акции <span class="nav-item__extra">%</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="slider__inner">
+            <div class="slider__wrapper">
+                <img class="slider__item-img" src="./images/content/main-slider.jpg" alt="">
+            </div>
+            <div class="slider__wrapper">
+                <img class="slider__item-img" src="./images/content/main-slider.jpg" alt="">
+            </div>
+            <div class="slider__wrapper">
+                <img class="slider__item-img" src="./images/content/main-slider.jpg" alt="">
+            </div>
+            <div class="slider__wrapper">
+                <img class="slider__item-img" src="./images/content/main-slider.jpg" alt="">
+            </div>
+            <div class="slider__wrapper">
+                <img class="slider__item-img" src="./images/content/main-slider.jpg" alt="">
+            </div>
+        </div>
+        <div class="slider__nums">
+            <span class="slider__num slider_current_slide">Проврка</span>
+            <img src="./images/slider-line.svg" alt="">
+            <span class="slider__num slider_count_slide">Проврка</span>
+        </div>
+        <div class="container">
+            <div class="slider__benefits">
+                <div class="slider__benefits-item">
+                    <div class="benefits-item__title">Гарантия 1 год</div>
+                    <div class="benefits-item__text">на весь ассортимент</div>
+                </div>
+                <div class="slider__benefits-item">
+                    <div class="benefits-item__title">рассрочка</div>
+                    <div class="benefits-item__text">от 6 месяцев</div>
+                </div>
+                <div class="slider__benefits-item">
+                    <div class="benefits-item__title">Подарки</div>
+                    <div class="benefits-item__text">и бонусам к покупкам </div>
+                </div>
+                <div class="slider__benefits-item slider__benefits-rating">
+                    <div class="slider__benefits__img-box">
+                        <img class="slider__benefits__img" src="./images/yandex.svg" alt="">
+                    </div>
+                    <div class="benefits-rating__rate">
+                        <div class="benefits-rating__title">Яндекс отзывы</div>
+                        <div class="benefits-rating__num">4,9</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products__inner">
+                <div class="tabs-wrapper products__tabs-wrapper">
+                    <div class="products__tabs-title">
+                        <p class="products__title">Электросамокаты</p>
+                    </div>
+                    <div class="tabs">
+                        <a href="#product-1" class="product__tab tab tab--active">Хиты продаж</a>
+                        <a href="#product-2" class="product__tab tab">Для города</a>
+                        <a href="#product-3" class="product__tab tab">Для взрослых</a>
+                        <a href="#product-4" class="product__tab tab">Для детей</a>
+                    </div>
+                </div>
+                <div class="product__tabs-container tabs-container">
+                    <div class="product__tabs-content tabs-content tabs-content--active" id="product-1">
+                        <div class="product-slider">
+                            <div class="product__cart product__cart--new">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--hit">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--new">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--hit">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--new">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--hit">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--new">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cart product__cart--hit">
+                                <div class="product__img-slider">
+                                    <div class="slider__inner product__slider-inner">
+                                        <div class="product__slider__item">
+                                            <!-- <div class="product__slider-hit">ХИТ</div>
+                                        <div class="product__slider-new">Новинка</div> -->
+                                            <div class="product__slider-comparison">
+                                                <img src="./images/comparison-grey.svg" alt="">
+                                            </div>
+                                            <img class="product__slider-img" src="./images/content/bise.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <div class="product__info-title">Kugoo Kirin M4</div>
+                                    <div class="product__info-detail">
+                                        <ul class="info-detail__items">
+                                            <li class="info-detail__item info-detail__item-accum">2000 mAh</li>
+                                            <li class="info-detail__item info-detail__item-power">1,2 л.с.</li>
+                                            <li class="info-detail__item info-detail__item-speed">60 км/ч</li>
+                                            <li class="info-detail__item info-detail__item-time">5 часов</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__info-price">
+                                        <div class="info-price__price">
+                                            <div class="price__old-price">39 900 ₽</div>
+                                            <div class="price__new-price">29 900 ₽</div>
+                                        </div>
+                                        <div class="price__buttons">
+                                            <div class="buttons__card price__buttons-btn">
+                                                <img src="./images/cart-blue.svg" alt="">
+                                            </div>
+                                            <div class="buttons__favorite price__buttons-btn">
+                                                <img src="./images/favorite-blue.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__info-buy">
+                                        <a href="#">Купить в 1 клик</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__tabs-content tabs-content tabs-content" id="product-2">
+                        <div class="product-slider">
+                            content-2
+                        </div>
+                    </div>
+                    <div class="product__tabs-content tabs-content tabs-content" id="product-3">
+                        <div class="product-slider">
+                            content-3
+                        </div>
+                    </div>
+                    <div class="product__tabs-content tabs-content tabs-content" id="product-4">
+                        <div class="product-slider">
+                            content-4
+                        </div>
+                    </div>
+                </div>
+                <div class="products__more">
+                    <button class="products__more-btn">Смотреть все</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="self-promotion">
+        <div class="container">
+            <div class="self-promotion__inner">
+                <div class="self-promotion__small-block">
+                    <img class="self-promotion__small-img" src="./images/content/block1.jpg" alt="">
+                </div>
+                <div class="self-promotion__small-block">
+                    <img class="self-promotion__small-img" src="./images/content/block2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="self-promotion__large-block">
+            <img class="self-promotion__large-img" src="./images/content/block3.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="popular-category">
+        <div class="container">
+            <div class="popular-category__title">
+                <div class="title__text">
+                    <p>Популярные категории</p>
+                </div>
+                <div class="title__callback-block">
+                    <div class="callback-block-img">
+                        <img src="./images/content/photo.jpg" alt="">
+                    </div>
+                    <div class="callback-block__text-box">
+                        <div class="callback-block__text">Менеджер ответит на любой ваш вопрос о продуктах Kugoo</div>
+                        <div class="callback-block__link-box">
+                            <a class="callback-block__link" href="#">Задать вопрос</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="popular-category__content">
+                <div class="popular-category__content-items">
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular4.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular2.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular3.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular4.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular5.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular6.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular7.jpg" alt="">
+                    </a>
+                    <a href="#" class="popular-category__content-item">
+                        <img class="content-item__img" src="./images/content/popular8.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="popular-category__more">
+                <button class="category-more__btn">
+                    Смотреть все
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="why-me">
+        <div class="why-me__test-drive">
+            <a href="#" class="why-me__img-box">
+                <img class="why-me__img" src="./images/content/wy-me.jpg" alt="">
+            </a>
+            <div class="why-me__text-box">
+                <div class="why-me__text-title">Kugoo-Russia — первый официальный дилер Kugoo Kirin в России</div>
+                <div class="text-listbox__description">Наша цель предоставить полный ассортимент современной продукции
+                    Kugoo Kirin, которая улучшает и упрощает жизнь. Стремимся подарить комфорт и эмоции, поэтому
+                    помогаем с выбором и внимательно относимся к сервисному обслуживанию.</div>
+                <div class="why-me__text-listbox">
+                    <div class="text-listbox__title">Специализируемся исключительно на бренде Kugoo, поэтому вы
+                        получите:</div>
+                    <ul class="text-listbox__link-list">
+                        <li class="text-listbox__link-items">цены от завода-изготовителя Jilong ;</li>
+                        <li class="text-listbox__link-items">бесплатный тест-драйв самокатов;
+                        </li>
+                        <li class="text-listbox__link-items">фирменную гарантию 1 год;
+                        </li>
+                        <li class="text-listbox__link-items">ремонт и обслуживание от 1 дня в собственном сервисном
+                            центре;</li>
+                        <li class="text-listbox__link-items">более 1 000 запчастей и аксессуаров в наличии</li>
+                    </ul>
+                    <a class="text-listbox__link-link" href="#">Смотреть сертификат</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="why-me__benefits">
+                <div class="why-me__benefits-header">
+                    <div class="benefits-header__title">Предлагаем самые выгодные цены
+                        на продукты Kugoo за счет прямых поставок</div>
+                    <div class="benefits-header__text">и заботимся об удобстве покупателей</div>
+                </div>
+                <div class="tabs-wrapper benefits-header__tabs-wrapper">
+                    <div class="tabs benefits-heade__tabs">
+                        <a href="#benefits-1" class="tab benefits-header__tabs tab--active">Интернет-магазин</a>
+                        <a href="#benefits-2" class="tab tab benefits-header__tabs">Сервисный центр</a>
+                    </div>
+                </div>
+                <div class="tabs-container benefits-header__tabs-container">
+                    <div id="benefits-1" class="tabs-content benefits-header__content-tabs tabs-content--active">
+                        <div class="benefits-header__tabs-items">
+                            <div class="benefits-header__tab-item">
+                                <div class="benefits-header__tab-icon">
+                                    <img class="benefits-header__icon-img" src="./images/cart-benefits.svg" alt="">
+                                </div>
+                                <div class="benefits-header__tab-title">Х товаров в каталоге</div>
+                                <div class="benefits-header__tab-description">Выбирайте товар, который подходит по цене
+                                    и характеристикам. Если товара нет в наличии — мы сообщим вам о его поступлении.
+                                </div>
+                            </div>
+                            <div class="benefits-header__tab-item">
+                                <div class="benefits-header__tab-icon">
+                                    <img class="benefits-header__icon-img" src="./images/billfold-benefits.svg" alt="">
+                                </div>
+                                <div class="benefits-header__tab-title">5 способов оплаты</div>
+                                <div class="benefits-header__tab-description">Вы можете оплатить покупку наличными,
+                                    картой, онлайн на сайте, через интернет-банкинг или в кредит от «Сбербанка».</div>
+                            </div>
+                            <div class="benefits-header__tab-item">
+                                <div class="benefits-header__tab-icon">
+                                    <img class="benefits-header__icon-img" src="./images/guarantee-benefits.svg" alt="">
+                                </div>
+                                <div class="benefits-header__tab-title">Полная документация и гарантия 1 год</div>
+                                <div class="benefits-header__tab-description">При покупке вам выдается кассовый чек,
+                                    товарный чек и гарантийный талон – эти документы дают право на гарантийное
+                                    обслуживание.</div>
+                            </div>
+                            <div class="benefits-header__tab-item">
+                                <div class="benefits-header__tab-icon">
+                                    <img class="benefits-header__icon-img" src="./images/transp-benefits.svg" alt="">
+                                </div>
+                                <div class="benefits-header__tab-title">Отправка заказа день в день</div>
+                                <div class="benefits-header__tab-description">Отправляем заказы по всей России день в
+                                    день или забирайте товар самостоятельно в магазинах в Москве, Санкт-Петербурге и
+                                    Краснодаре</div>
+                            </div>
+                            <div class="benefits-header__tab-item benefits-header__tab-link">
+                                <div class="benefits-header__tab-icon">
+                                    <img class="benefits-header__icon-img" src="./images/per-benefits.svg" alt="">
+                                </div>
+                                <div class="benefits-header__tab-title">Рассрочка без переплат</div>
+                                <div class="benefits-header__tab-description">В нашем магазине можно приобрести любой
+                                    товар в рассрочку.</div>
+                                <div class="benefits-header__tab-link">Подробнее про условия рассрочки</div>
+                            </div>
+                            <div class="benefits-header__tab-item benefits-header__tab-gocatalog">
+                                <div class="benefits-header__tab-title">Больше в каталоге</div>
+                                <div class="benefits-header__tab-link benefits-header__tab-linkcatalog">Перейти</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="benefits-2" class="tabs-content benefits-header__tabs-container">content-2</div>
+                </div>
+            </div>
+        </div>
+        <div class="why-me__promo-video">
+            <div class="promo-video__inner">
+                <img class="promo-video__inner-img" src="./images/content/video.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="reviews">
+        <div class="reviews__text-block">
+            <div class="reviews__title"></div>
+            <div class="reviews__link"></div>
+        </div>
+        <div class="reviews__image-reviews">
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+            <div class="reviews__image-box">
+                <div class="reviews__user-text">
+                    <div class="reviews__user">
+                        <div class="reviews__user-photo-text">
+                            <div class="reviews__user-photo">
+                                <img class="reviews__user-photoimg" src="./images/content/reviews/user.jpg" alt="">
+                            </div>
+                            <div class="reviews__user-info">
+                                <p class="reviews__user-infoname">Илья М.</p>
+                                <p class="reviews__user-inforate">Знаток города 2 уровня</p>
+                            </div>
+                        </div>
+                        <div class="reviews__user-rate">
+                            <div class="reviews__user-ratestars"></div>
+                            <div class="reviews__user-ratedate">23 сентября 2020</div>
+                        </div>
+                        <div class="reviews__user-reviews">Магазин очень понравился, быстро обслужили, персонал хорошо
+                            знает свой товар, вежливо и грамотно консультирует, ассортимент внушительный, а если чего
+                            нет сейчас в наличии, то можно без проблем заказать на сайте, так что всем рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <img class="reviews__image-img" src="./images/content/reviews/img4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/libs.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="tabs-wrapper">
+  <div class="tabs">
+    <a href="#" class="tab tab--active"></a>
+  </div>
+  <div class="tabs-container">
+    <div class="tabs-content tabs-content--active"></div>
+  </div>
+</div> -->
